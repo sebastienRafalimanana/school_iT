@@ -1,0 +1,19 @@
+public 
+    |________________________________assets
+    |________________________________index.php
+
+app
+    |________________________________controller
+    |________________________________models
+    |________________________________route
+    |________________________________views
+
+
+Ao anatiny ny views lah no midefinir nley template nlah
+
+de rehefa manao lien ::: <li><a href="<?=url("affichage_note")?>"><i class="fa fa-home"></i> Affichage note</a></li>
+
+**** io method url io no apiasaina refa miantso anley template lah zany we mandray en parametre anley nom anley fichier php fa ts atao eo ley extension 
+
+
+        

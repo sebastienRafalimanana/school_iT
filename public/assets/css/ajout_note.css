@@ -1,0 +1,58 @@
+.ajout_note {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.ajout_note #ajout_note_control {
+  position: relative;
+  width: 35%;
+  height: 35%;
+}
+.ajout_note #ajout_note_control .params {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+.ajout_note #ajout_note_control .params div {
+  margin: auto;
+  width: 90%;
+}
+.ajout_note #ajout_note_control .params div:first-child {
+  padding-top: 15px;
+}
+.ajout_note #ajout_note_control button {
+  width: 100%;
+}
+.ajout_note #ajout_note_fiche {
+  width: 55%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  overflow: auto;
+  z-index: 1111;
+}
+.ajout_note #ajout_note_fiche .cell {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ajout_note #ajout_note_fiche .cell input:first-child, .ajout_note #ajout_note_fiche .cell input:last-child {
+  background-color: #fff;
+  width: 75px;
+}
+.ajout_note #ajout_note_fiche .cell input:first-child {
+  cursor: pointer;
+}
+.ajout_note #ajout_note_fiche .cell input:nth-child(2) {
+  background-color: #fff;
+  width: calc(75% - 150px);
+  cursor: pointer;
+}
+.ajout_note #ajout_note_fiche .cell input:focus {
+  outline: none;
+  border: none;
+}
+
+/*# sourceMappingURL=ajout_note.css.map */

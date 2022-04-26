@@ -1,0 +1,57 @@
+.ajout_note{
+    height: 100%;  
+    display: flex;
+    justify-content: space-evenly;
+        #ajout_note_control{
+            position: relative;
+            width: 35%;
+            height: 35%;
+            .params{
+                width: 100%;
+                height:100%;
+                background-color: #fff;
+                box-shadow: 5px 5px 10px rgba($color: #000000, $alpha: 0.050);
+                border-radius: 5px;
+                div{
+                    margin: auto;
+                    width: 90%;
+                    &:first-child{
+                        padding-top: 15px;
+                    }
+                }
+            }
+            button{
+                width: 100%;
+            }
+           
+        }
+        #ajout_note_fiche{
+            width: 55%;
+            height: 100%;
+            background-color: #fff;
+            box-shadow: 5px 5px 10px rgba($color: #000000, $alpha: 0.050);
+            border-radius: 5px;
+            overflow: auto;
+            z-index: 1111;
+            .cell{
+                display: flex;
+                justify-content: space-evenly;
+                input:first-child,input:last-child{
+                    background-color: #fff;
+                    width: 75px;
+                }
+                input:first-child{
+                    cursor: pointer;
+                }
+                input:nth-child(2){
+                    background-color: #fff;
+                    width: calc(75% - 150px);
+                    cursor: pointer;
+                }
+                input:focus{
+                    outline: none;
+                    border: none;
+                }
+            }
+        }
+}
