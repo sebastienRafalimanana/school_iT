@@ -6,14 +6,14 @@ class Inscription extends Database{
     private $id_niveau;
     private $code_mention;
     
-    function __construct($num_matricule,$id_anne_anversitaire,$id_niveau,$code_mention) {
+    function __construct($num_matricule=null,$id_anne_anversitaire=null,$id_niveau = null,$code_mention=null) {
         $this->num_matricule = $num_matricule;
         $this->id_anne_anversitaire = $id_anne_anversitaire;
         $this->id_niveau = $id_niveau;
         $this->code_mention = $code_mention;
     }
     public function onInscription(){
-        $sql = "INSERT INTO `inscription` (`Num_Etudiant`, `Id_Anne_Unversitaire`, `Id_Niveau`, `code_mention`) VALUES ('$this->num_matricule', ' $this->id_anne_anversitaire', ' $this->id_niveau', '$this->code_mention')"
+        $sql = "INSERT INTO `inscription` (`Num_Etudiant`, `Id_Anne_Unversitaire`, `Id_Niveau`, `code_mention`) VALUES ('$this->num_matricule', ' $this->id_anne_anversitaire', ' $this->id_niveau', '$this->code_mention')";
         $this->execute($sql);
     }
     public function onRenscription(){

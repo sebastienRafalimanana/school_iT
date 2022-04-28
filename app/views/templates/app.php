@@ -20,6 +20,7 @@
             </main>
         </div>
     </div>
+    <script src="../public/assets/lib/jquery.js"></script>
     <script src="../public/assets/js/sweetalert.min.js"></script>
     <script src="../public/assets/js/inscription.min.js"></script>
 </body>

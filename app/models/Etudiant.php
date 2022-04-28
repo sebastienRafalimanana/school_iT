@@ -1,5 +1,5 @@
 <?php
-
+require "app/Database.php";
 class Etudiant extends Database {
     private $num_matricule;
     private $nom_etudiant;

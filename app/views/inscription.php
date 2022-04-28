@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../public/assets/css/inscription.style.css">
 
-<div class="inscription">
+<form class="inscription" id="inscriptionForm">
         <h3 id="aboutTask">Inscription d'un étudiant</h3>
         <div class="info">
             <div class="info-box">
@@ -26,11 +26,11 @@
                     <!-- niveau -->
                     <label for="niveau">Niveau</label>
                     <select id="niveau" name="niveau" class="form-control">
-              <option value="L1">L1</option>
-              <option value="L2">L2</option>
-              <option value="L3">L3</option>
-              <option value="M1">M1</option>
-              <option value="M2">M2</option>
+              <option value="1">L1</option>
+              <option value="2">L2</option>
+              <option value="3">L3</option>
+              <option value="4">M1</option>
+              <option value="5">M2</option>
             </select>
                 </div>
                 <div class="box_2" id="info-etu">
@@ -71,5 +71,5 @@
                 <button class="btn" type="button" id="next">suivant</button>
             </div>
         </div>
-    </div>
+</form>
 

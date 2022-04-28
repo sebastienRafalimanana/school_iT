@@ -1,5 +1,5 @@
 <?php
-
+require "app/Database.php";
 class Controle extends Database{
     private $num_etudiant;
     private $num_matiere;

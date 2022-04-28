@@ -1,5 +1,5 @@
 <?php
-
+require "app/Database.php";
 class Matiere extends Database{
     private $nom_matiere;
     private $coeff_matiere;

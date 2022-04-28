@@ -18,12 +18,12 @@ class Controller{
     /**
      * cette methode gere les requette 
      */
-    public function getApi($models, $endpoint){
-        $models = ucfirst($models)."Controller";
-        $models = new $models();
-        $models->$endpoint();
+    /* public function getApi($controller, $endpoint){
+        $controller = ucfirst($controller)."Controller";
+        $controller = new $controller();
+        $controller->$endpoint();
         
-    }
+    } */
 }
 
 ?>
