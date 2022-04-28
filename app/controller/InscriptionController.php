@@ -18,6 +18,16 @@ class InscriptionController{
         $inscription->onInscription();
     }
 
+    public function reinscription($data){
+        $mention = $data->{'mention'};
+        $niveau = $data->{'niveau'};
+        $annee = $data->{'annee'};
+        $matricule = $data->{'matricule'};
+    
+        $inscription = new Inscription($matricule, $annee, $niveau, $mention);
+        $inscription->onRenscription();
+    }
+
 }
 
 ?>

@@ -1,3 +1,27 @@
+/*
+style reinscription    
+*/
+.reinscription .info {
+  width: 100%;
+  min-height: 800px;
+}
+.reinscription .info .info-box {
+  height: 600px;
+  width: 450px;
+}
+.reinscription .info .info-box .box #level {
+  display: flex;
+  justify-content: space-between;
+}
+.reinscription .info .info-box .box #level div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+/*
+style reinscription , inscription  
+*/
 h3 {
   text-align: center;
   margin-top: 30px;
@@ -42,7 +66,7 @@ h3 {
   padding: 20px 0;
   font-family: "Gilroy-Light";
 }
-.info .info-box .box select {
+.info .info-box .box select, .info .info-box .box input {
   padding: 10px 5px;
   font-size: 16px;
   outline: 0;
@@ -50,7 +74,7 @@ h3 {
   background: #fff;
   border: 1px solid #e0e0e0;
 }
-.info .info-box .box select:focus {
+.info .info-box .box select:focus, .info .info-box .box input:focus {
   border: 1px solid #2a9d8f;
 }
 .info .info-box .box_2 {
@@ -118,7 +142,7 @@ h3 {
   position: relative;
   margin-bottom: 30px;
   margin-top: 40px;
-  width: 600px;
+  width: 100%;
 }
 .info .info-container .progress-container::before {
   content: "";
@@ -201,4 +225,4 @@ h3 {
   }
 }
 
-/*# sourceMappingURL=inscription.style.css.map */
+/*# sourceMappingURL=inscription.css.map */

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../public/assets/css/inscription.style.css">
+<link rel="stylesheet" href="../public/assets/css/inscription.css">
 
 <form class="inscription" id="inscriptionForm">
         <h3 id="aboutTask">Inscription d'un étudiant</h3>
@@ -72,4 +72,6 @@
             </div>
         </div>
 </form>
+<script src="../public/assets/js/inscription.min.js"></script>
+
 

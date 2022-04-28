@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/assets/css/app.css">
+    <script src="../public/assets/lib/jquery.js"></script>
+    <script src="../public/assets/js/sweetalert.min.js"></script>
     <title> <?= $tittle ?></title>
 </head>
 <body>
@@ -20,9 +22,6 @@
             </main>
         </div>
     </div>
-    <script src="../public/assets/lib/jquery.js"></script>
-    <script src="../public/assets/js/sweetalert.min.js"></script>
-    <script src="../public/assets/js/inscription.min.js"></script>
-</body>
+   </body>
 
 </html>

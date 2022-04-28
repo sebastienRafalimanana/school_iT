@@ -7,7 +7,7 @@ $data =json_decode($data);
 
 try {
     $inscription = new InscriptionController();
-    $inscription->inscription($data);
+    $inscription->reinscription($data);
     echo "succes";
 } catch (PDOException $ex) {
     echo "err";
