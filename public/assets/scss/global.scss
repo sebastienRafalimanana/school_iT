@@ -1,0 +1,17 @@
+// Fonts //
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url('../fonts/Gilroy/Gilroy-ExtraBold.otf');
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../fonts/Gilroy/Gilroy-Light.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+}

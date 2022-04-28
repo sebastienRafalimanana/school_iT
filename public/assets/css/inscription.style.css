@@ -1,0 +1,204 @@
+h3 {
+  text-align: center;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+
+.info {
+  width: 100%;
+  min-height: 600px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info .info-box {
+  width: 100%;
+  height: 500px;
+  background: white;
+  border: 1px dashed #e0e0e0;
+  position: relative;
+}
+.info .info-box h5 {
+  color: #2a9d8f;
+  opacity: 1;
+  padding: 15px 0 0 15px;
+  transition: all 0.5s ease;
+}
+.info .info-box .box {
+  position: absolute;
+  width: 100%;
+  min-height: 85%;
+  background: #fff;
+  z-index: 1;
+  margin-top: 30px;
+  display: flex;
+  padding: 0 15px;
+  flex-direction: column;
+}
+.info .info-box .box label {
+  opacity: 0.5;
+  padding: 20px 0;
+  font-family: "Gilroy-Light";
+}
+.info .info-box .box select {
+  padding: 10px 5px;
+  font-size: 16px;
+  outline: 0;
+  color: rgba(0, 0, 0, 0.6);
+  background: #fff;
+  border: 1px solid #e0e0e0;
+}
+.info .info-box .box select:focus {
+  border: 1px solid #2a9d8f;
+}
+.info .info-box .box_2 {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: 85%;
+  margin-top: 30px;
+  display: flex;
+  padding: 0 15px;
+  flex-direction: column;
+}
+.info .info-box .box_2 label {
+  opacity: 0.5;
+  padding: 20px 0;
+  font-family: "Gilroy-Light";
+}
+.info .info-box .box_2 input {
+  padding: 10px 15px;
+  font-size: 16px;
+  outline: 0;
+  color: rgba(0, 0, 0, 0.6);
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  transition: all 0.5s ease-in-out;
+}
+.info .info-box .box_2 input::placeholder {
+  opacity: 0.8;
+  font-family: "Gilroy-Light";
+  font-size: 12px;
+}
+.info .info-box .box_2 input:focus {
+  border: 1px solid #2a9d8f;
+}
+.info .info-box .conclusion {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: 85%;
+  margin-top: 30px;
+  display: flex;
+  padding: 0 15px;
+  justify-content: center;
+  z-index: 0;
+}
+.info .info-box .conclusion .conclusion_detail {
+  width: 50%;
+}
+.info .info-box .conclusion .conclusion_detail div {
+  margin-bottom: 10px;
+}
+.info .info-box .conclusion .conclusion_detail i {
+  color: #2a9d8f;
+  margin-right: 10px;
+}
+.info .info-box .conclusion .conclusion_detail span {
+  opacity: 0.8;
+}
+.info .info-container {
+  text-align: center;
+}
+.info .info-container .progress-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  width: 600px;
+}
+.info .info-container .progress-container::before {
+  content: "";
+  background: #e0e0e0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  z-index: -1;
+}
+.info .info-container .progress-container .progress {
+  background: #2a9d8f;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 0;
+  z-index: 0;
+  transition: all 0.8s ease-in-out;
+}
+.info .info-container .progress-container .circle {
+  background-color: #fff;
+  color: #999;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #e0e0e0;
+  z-index: 1;
+  transition: 0.4s ease;
+}
+.info .info-container .progress-container .circle.active {
+  border-color: #2a9d8f;
+}
+.info .info-container .btn {
+  color: #fff;
+  background: #2a9d8f;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px 30px;
+  font-size: 14px;
+  margin: 10px 40px 40px 40px;
+  width: 150px;
+  outline: 0;
+  transition: all 0.3s ease-in-out;
+}
+.info .info-container .btn:nth-child(3) {
+  background: transparent;
+  border: 1px solid #2a9d8f;
+  color: #2a9d8f;
+}
+.info .info-container .btn:hover {
+  background: #2a9d8f;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .Navbar {
+    display: none;
+  }
+
+  .App {
+    width: 100%;
+  }
+  .App .info .info-box {
+    width: 90%;
+  }
+  .App .info .info-container .progress-container {
+    width: 200px;
+    margin-left: calc(50% - 100px);
+  }
+  .App .info .info-container button {
+    margin: 10px 20px 20px 20px;
+  }
+}
+
+/*# sourceMappingURL=inscription.style.css.map */

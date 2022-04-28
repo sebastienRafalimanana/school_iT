@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy/Gilroy-ExtraBold.otf");
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy/Gilroy-Light.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+}
+
+.Navbar {
+  width: 80px;
+  height: 100vh;
+  background: #2a9d8f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  float: left;
+}
+.Navbar .control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Navbar .control button {
+  color: #fff;
+  font-size: 20px;
+  outline: 0;
+  background: transparent;
+  border: 0;
+}
+.Navbar .Navbar-Link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Navbar .Navbar-Link a {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.Navbar .Navbar-Link a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.Navbar .Navbar-Link a.active {
+  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.Navbar .Navbar-Link a.active::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  opacity: 0.5;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=navbar.css.map */

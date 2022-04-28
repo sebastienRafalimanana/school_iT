@@ -24,7 +24,7 @@ function url($page){
 }
 
 
-
+ 
 /**
  * pour les endpoint
  * url : http://localhost/G-School/api?query="xxxx"&endpoint="yyyy"

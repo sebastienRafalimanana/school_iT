@@ -6,7 +6,7 @@ class Etudiant extends Database {
     private $prenom_etudiant;
     private $date_naissance_etudiant;
     
-    function __construct($num_matricule="null",$nom_etudiant="null",$prenom_etudiant=null,$date_naissance_etudiant=null) {
+    function __construct($num_matricule=null,$nom_etudiant=null,$prenom_etudiant=null,$date_naissance_etudiant=null) {
         $this->num_matricule = $num_matricule;
         $this->nom_etudiant = $nom_etudiant;
         $this->prenom_etudiant = $prenom_etudiant;
