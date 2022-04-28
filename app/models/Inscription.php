@@ -20,6 +20,11 @@ class Inscription extends Database{
         $sql = "UPDATE `inscription` SET `Id_Anne_Unversitaire` = ' $this->id_anne_anversitaire', `Id_Niveau` = '$this->id_niveau', `code_mention` = '$this->code_mention' WHERE `inscription`.`Num_Etudiant` =  $this->num_matricule ";
         $this->execute($sql);
     }
+    public function onGetEtudiantInformation($num_matricule){
+        $sql = "SELECT etudiant.Nom_Etudiant, etudiant.Prenom_Etudiant , inscription.code_mention, inscription.Id_Niveau FROM inscription INNER JOIN etudiant on etudiant.Num_Etudiant = inscription.Num_Etudiant WHERE etudiant.Num_Etudiant = $num_matricule";
+        $data = $this->execute_query($sql);
+        return $data;
+    }
 
 }
 

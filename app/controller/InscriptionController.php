@@ -28,6 +28,7 @@ class InscriptionController{
         $inscription->onRenscription();
     }
 
+
 }
 
 ?>
