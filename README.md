@@ -1,1 +1,1 @@
-# G-School
+# school_it
