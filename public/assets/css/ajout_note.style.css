@@ -1,5 +1,6 @@
 .ajout_note {
   height: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -55,4 +56,4 @@
   border: none;
 }
 
-/*# sourceMappingURL=ajout_note.css.map */
+/*# sourceMappingURL=ajout_note.style.css.map */

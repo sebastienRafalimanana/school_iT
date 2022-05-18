@@ -1,5 +1,7 @@
-<link rel="stylesheet" href="../public/assets/css/ajout_note.css">
 
+
+<link rel="stylesheet" href="../public/assets/lib/bootstrap.min.css">
+<link rel="stylesheet" href="../public/assets/css/ajout_note.style.css">
 <!--  ajout note  -->
     <form action=""  class="ajout_note">
           <!--  fiche de note -->

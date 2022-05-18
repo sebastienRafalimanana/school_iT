@@ -60,7 +60,7 @@
                 <div class="progress-container">
     
                 </div>
-                <button class="btn" type="button" id="sumbit_data">suivant</button>
+                <button class="btn" type="button" id="sumbit_data">Valider</button>
             </div>
         </div>
 </form>
